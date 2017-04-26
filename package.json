@@ -1,0 +1,31 @@
+{
+  "name": "how-to-draw-a-canvas-map",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/seracio/how-to-draw-a-canvas-map.git",
+  "author": "nmondon <nicolasmondon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "flow-bin": "^0.44.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "canvas": "^1.6.5",
+    "d3-array": "^1.2.0",
+    "d3-geo": "^1.6.3",
+    "d3-geo-projection": "^2.1.0",
+    "d3-scale": "^1.0.5",
+    "filendir": "^1.0.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/babel-node src/index.js"
+  }
+}
